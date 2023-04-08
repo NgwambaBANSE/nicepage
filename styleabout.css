@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: police;
+    src: url(police/Montserrat-VariableFont_wght.ttf);
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.hac a{
+margin-right: 60px;
+text-decoration: none;
+cursor: pointer;
+color: black;
+font-family: police;
+
+}
+.Debut{
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+    background-image: url(imageabout/pexels01.jpg);
+    background-size: cover;
+    
+}
+.zeroundebu{
+    display: flex;
+    padding: 80px;
+
+}
+.zeroun{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.zerovoisin{
+    font-family: police;
+    color: white;
+    padding: 25px;
+    line-height: 1.6;
+    font-size: 17px;
+  }
+.zerodessou{
+    font-family: police;
+    color: white;
+    padding: 25px;
+    line-height: 1.6;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -100px;
+}
+.zeroun h1{
+    font-size: 80px;
+    font-family: police;
+    color: #91cfe1;
+}
+.aboutred{
+    width: 100%;
+    height: 600px;
+   }
+.textgros{
+    font-family: police;
+    font-size: 80px;
+    padding: 40px;
+}
+.textmoyen{
+    font-family: police;
+    font-size: 20px;
+    padding:20px;
+    padding-top: 0px;
+    font-weight: initial;
+}
+.buttonlearn{
+    width: 200px;
+    height: 70px;
+    border-style: none;
+    border-radius: 50px;
+    background-color: #91cfe1;
+    color: white;
+    font-family: police;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.textbut{
+    padding: 20px;
+}
+.bleuclair{
+    width: 100%;
+    height: 700px;
+    background-color: #91cfe1;
+}
+.textgrosbleuclair{
+    font-family: police;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 40px;  
+}
+.textmoyenbleuclair{
+    font-family: police;
+    font-size: 20px;
+    padding:40px;
+    line-height: 1.6;
+    font-weight: initial;
+    color: white;
+    margin-top: -50px;
+}
+.bleuintern{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: space-around;
+} 
+
+.motiv{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #91cfe1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+       
+}
+.txtmotiv{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: police;
+    color: #91cfe1;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+.txtsampe{
+    
+    font-family: police;
+    color: black;
+    line-height: 1.6;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.bleutext{
+    margin-bottom: 100px;
+}
+
+.qutre{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.jaune{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.jaune1{
+    width: 600px;
+    height: 600px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+.jaune2{
+    width: 300px;
+    height: 200px;
+    background-color:#f2f2f2;
+    font-size: 20px;
+    font-family: police;
+    font-weight: bold;
+    line-height: 1.6;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+      
+}
+.imgjeune{
+    width: 400px;
+    padding-left: 150px;
+    
+    text-align: center;
+    margin-bottom: -200px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 100px;
+   margin-top: -100px;
+   
+ }
+ .jaune3{
+    display: flex;
+    flex-direction: column;
+   padding: 20px;
+    }
+    .jaune3 p{
+        padding: 20px;
+        font-size: 20px;
+        font-family: police;
+    }
+    .jaunebold{
+        font-weight: bold;
+    }
+.violet{
+    width: 100%;
+    height: 600px;
+       display: flex;
+}
+.textgrosviol{
+    font-family: police;
+    font-size: 50px;
+    padding: 40px;
+}
+.textmoyenviolet{
+    font-family: police;
+    font-size: 20px;
+    padding:40px;
+    padding-top: 0px;
+    font-weight: initial; 
+}
+.imgviolet{
+    width: 500px;
+    height: 600px;
+    margin-right: 40px;
+}
+.logoviolet{
+   width: 50px;
+   height: 50px;
+   display: flex;
+    margin-top: -57px;
+}
+.orange{
+    width: 100%;
+   height: 600px;
+  
+}
+
+.sectionmary{
+    padding: 40px;
+
+}
+.sectionmary p{
+    padding: 5px;
+}
+
+.meet{
+    font-size: 60px;
+    font-family: police;
+    font-weight: bold;
+   
+}
+.teamimg{
+    width: 200px;
+    height: 240px;
+   
+}
+.teammary{
+    font-size: 25px;
+    font-family: police;
+    color: #91cfe1;
+    
+}
+.poste{
+    font-family: police;
+    font-weight: bold;
+    font-size: 20px;
+}
+.orteame{
+    display: flex;
+  padding: 50px;
+}
+.logobleu{
+    display: flex;
+ 
+}
+.logobleu i{
+    width: 30px;
+ 
+}
+.imgf{
+    fill: black;
+}
